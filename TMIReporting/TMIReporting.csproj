@@ -85,6 +85,12 @@
     <Compile Include="Rapport\RapportFicheInformation.Designer.cs">
       <DependentUpon>RapportFicheInformation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Rapport\RapportOrderdetransfertletranger.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rapport\RapportOrderdetransfertletranger.Designer.cs">
+      <DependentUpon>RapportOrderdetransfertletranger.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +110,9 @@
     <EmbeddedResource Include="Rapport\RapportFicheInformation.resx">
       <DependentUpon>RapportFicheInformation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Rapport\RapportOrderdetransfertletranger.resx">
+      <DependentUpon>RapportOrderdetransfertletranger.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -116,6 +125,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ImageLogo\BiatLogo.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

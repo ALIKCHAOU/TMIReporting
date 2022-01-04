@@ -78,6 +78,8 @@
     <Compile Include="Model\FrmFounissuer.Designer.cs">
       <DependentUpon>FrmFounissuer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\OrderTransferEtranger.cs" />
+    <Compile Include="Model\OrdreTransfertEtrangerOperationCommerciale.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rapport\RapportFicheInformation.cs">
